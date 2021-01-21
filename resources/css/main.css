@@ -167,6 +167,7 @@ header.container-fluid {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    height: 100vh;
 }
 
 .carousel-inner * {
@@ -175,10 +176,9 @@ header.container-fluid {
 
 .carousel-inner .container-fluid:nth-child(1) .container .row {
     background-image: url(../images/home/1.jpg);
-    height: 100vh;
 }
 
-.carousel-caption {
+.carousel-caption-position {
     margin: auto;
     position: relative;
     left: 0;
@@ -190,9 +190,19 @@ header.container-fluid {
 
 footer {
     text-align: center;
+    background-color: #800000;
+    padding: 15px 0px;
 }
 
 footer .social-media * {
     font-size: xxx-large;
     margin: 2px;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+footer * {
+    color: white;
 }
