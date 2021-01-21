@@ -167,11 +167,16 @@ header.container-fluid {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 100vh;
+    height: 70vh;
 }
 
 .carousel-inner * {
     color: black;
+}
+
+.carousel {
+    z-index: 0;
+    height: 80vh;
 }
 
 .carousel-inner .container-fluid:nth-child(1) .container .row {
@@ -183,6 +188,10 @@ header.container-fluid {
     position: relative;
     left: 0;
     right: 0;
+}
+
+.welcome {
+    text-align: center;
 }
 
 
