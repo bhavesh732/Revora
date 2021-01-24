@@ -24,10 +24,10 @@ for (var i = 0; i < links.length; i++) {
     });
 }
 var navbutton = document.querySelector('.navdisplay');
-var header = document.querySelector('.header');
+// var header = document.querySelector('.header');
 navbutton.addEventListener('click', () => {
     navbutton.classList.toggle('navhide');
-    header.classList.toggle('header-dark')
+    // header.classList.toggle('header-dark');
 });
 
 function navhide() { navbutton.click(); }

@@ -24,37 +24,39 @@
 
     <header class="container-fluid d-flex header" id="header">
 
-        <button class="navbar-toggler navdisplay mr-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" data-interval="false">
-            <div></div>
-        </button>
+        <div class="container d-flex">
+            <button class="navbar-toggler navdisplay mr-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" data-interval="false">
+                <div></div>
+            </button>
 
-        <div class="social-media d-xs-none d-block">
-            <a target="_blank" href="https://www.instagram.com/" class="btn btn-social-icon btn-instagram">
-                <span class="fa fa-instagram"></span>
-            </a>
-            <a target="_blank" href="https://m.facebook.com/" class="btn btn-social-icon btn-facebook">
-                <span class="fa fa-facebook"></span>
-            </a>
-            <a target="_blank" href="https://wa.me/" class="btn btn-social-icon btn-whatsapp">
-                <span class="fa fa-whatsapp"></span>
-            </a>
-        </div>
-
-        <nav class="navbar navbar-expand-xs setwidth mr-auto">
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav m-auto">
-                    <li><a href="index.html" onclick="navhide()"><button
-                                                        class="butt nav-a">Home</button></a></li>
-                    <li><a href="index.html#about" onclick="navhide()"><button class="butt aboutus">About
-                                                        Us</button></a></li>
-                    <li><a href="products.html" onclick="navhide()"><button
-                                                        class="butt">Products</button></a></li>
-                    <li><a href="gallery.html" onclick="navhide()"><button class="butt">Gallery</button></a></li>
-                    <li><a href="contact.html" onclick="navhide()"><button class="butt">Contact Us</button></a></li>
-                </ul>
+            <div class="social-media d-xs-none d-block m-0 mr-auto">
+                <a target="_blank" href="https://www.instagram.com/" class="btn btn-social-icon btn-instagram">
+                    <span class="fa fa-instagram"></span>
+                </a>
+                <a target="_blank" href="https://m.facebook.com/" class="btn btn-social-icon btn-facebook">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <a target="_blank" href="https://wa.me/" class="btn btn-social-icon btn-whatsapp">
+                    <span class="fa fa-whatsapp"></span>
+                </a>
             </div>
-        </nav>
 
+            <nav class="navbar navbar-expand-md setwidth">
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav m-auto">
+                        <li><a href="index.html" onclick="navhide()"><button
+                                                                                class="butt nav-a">Home</button></a></li>
+                        <li><a href="index.html#about" onclick="navhide()"><button class="butt aboutus">About
+                                                                                Us</button></a></li>
+                        <li><a href="products.html" onclick="navhide()"><button
+                                                                                class="butt">Products</button></a></li>
+                        <li><a href="gallery.html" onclick="navhide()"><button class="butt">Gallery</button></a></li>
+                        <li><a href="contact.html" onclick="navhide()"><button class="butt">Contact Us</button></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
         <!-- <a class="navbar-brand" href="index.html"> <img src="resources/images/DWFINALLOGO.png"> </a> -->
         <!-- <span class="navbar-toggler-icon"></span> -->
     </header>
@@ -71,25 +73,21 @@
         <div class="carousel-inner">
 
             <div class="container-fluid carousel-item active">
-                <div class="container">
-                    <div class="row">
-                        <!-- <img src="resources/images/home/1.jpg" alt="..."> -->
-                        <div class="carousel-caption carousel-caption-position d-none d-md-block">
-                            <h1>Revora</h1>
-                            <p>You Imagine. We Deliver.</p>
-                        </div>
+                <div class="container d-flex b ">
+                    <!-- <img src="resources/images/home/1.jpg" alt="..."> -->
+                    <div class="carousel-caption carousel-caption-position d-none d-md-block">
+                        <h1>Revora</h1>
+                        <p>You Imagine. We Deliver.</p>
                     </div>
                 </div>
             </div>
 
             <div class="container-fluid carousel-item">
                 <div class="container">
-                    <div class="row">
-                        <img src="resources/images/home/2.jpg" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Lorem ipsum</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque necessitatibus consequuntur harum omnis? Vero dicta omnis alias odio molestias modi quo beatae neque culpa, nemo debitis ullam explicabo commodi inventore.</p>
-                        </div>
+                    <img src="resources/images/home/2.jpg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Lorem ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque necessitatibus consequuntur harum omnis? Vero dicta omnis alias odio molestias modi quo beatae neque culpa, nemo debitis ullam explicabo commodi inventore.</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +111,9 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit doloribus rem voluptatem in tempora, animi accusamus libero ea ullam totam labore nesciunt dolore nemo doloremque enim. Ex aliquam placeat dolor.</p>
     </div>
 
-    <button>View Catalogue</button>
+    <div class="container d-flex p-5">
+        <a href="pdf.pdf" class="m-auto"><button>View The Catalogue</button></a>
+    </div>
 
 
     <div class="container d-flex mb-5">
