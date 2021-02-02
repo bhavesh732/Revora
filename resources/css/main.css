@@ -244,6 +244,26 @@ header div.container {
     z-index: 1;
 }
 
+.flip-card-back button {
+    border: none;
+    font-size: x-large;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.flip-card-front h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* footer */
 
@@ -264,4 +284,105 @@ footer p {
 
 footer * {
     color: white;
+}
+
+
+/* Contact Us */
+
+form {
+    text-align: center;
+}
+
+form span {
+    color: red;
+    margin: 5px;
+    font-size: xx-large;
+}
+
+input {
+    width: 90%;
+    border: none;
+    border: 1px solid rgb( 220, 220, 220);
+    border-bottom: 2px solid #102452;
+    margin: 2vh 0vh;
+    padding: 2vh;
+    font-weight: bold;
+}
+
+.name {
+    width: 45%;
+}
+
+input:focus {
+    /* box-shadow: inset 0 0 8px 1px rgb(126, 121, 121); */
+    border-bottom: 4px solid #102452;
+}
+
+textarea {
+    border: 1px solid rgb(220, 220, 220);
+    border-bottom: 2px solid #102452;
+    width: 90%;
+    height: 30vh;
+    padding: 2vh;
+    margin: 2vh 0vh;
+    font-weight: bold;
+}
+
+a:hover,
+a {
+    text-decoration: none;
+    color: #f87060;
+}
+
+iframe {
+    height: 450px;
+    width: 600px;
+}
+
+#heading {
+    text-align: left;
+    font-weight: bold;
+    margin: 0vh;
+    padding: 15px;
+}
+
+#heading2 {
+    text-align: center;
+    font-weight: bold;
+    margin: 2.5vh;
+}
+
+.address {
+    margin: 15px 0px;
+}
+
+.map {
+    padding: 7px;
+    margin: 15px 0px;
+}
+
+.error {
+    visibility: hidden;
+}
+
+@media screen and (max-width:766px) {
+    input {
+        width: 85%;
+        border: none;
+        border-bottom: 2px solid #102452;
+        margin: 0;
+        padding: 2.5%;
+        font-weight: 500;
+    }
+    .error {
+        visibility: visible;
+    }
+    .name {
+        width: 85%;
+        margin-left: 0%;
+    }
+    iframe {
+        width: 90vw;
+        height: 67.5vw;
+    }
 }
