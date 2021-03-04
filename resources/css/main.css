@@ -182,6 +182,37 @@ header div.container {
     right: 0;
 }
 
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: #800000;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #800000;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(128, 0, 1, 0.8);
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    background-color: #800000;
+}
+
 .welcome {
     text-align: center;
 }

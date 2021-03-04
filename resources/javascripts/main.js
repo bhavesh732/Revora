@@ -6,7 +6,7 @@ function hidefunction() {
     var currentScrollPos = window.pageYOffset;
     if (navbutton.className != "navbar-toggler navdisplay navhide") {
         if (prevScrollpos > currentScrollPos) {
-            document.getElementById("header").style.top = "0";
+            document.getElementById("header").style.top = "-1px";
             document.getElementById("header").style.transition = "0.5s";
         } else {
             document.getElementById("header").style.top = "-100px";
