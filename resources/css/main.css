@@ -207,6 +207,18 @@ header div.container {
     box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+.map {
+    margin: 0;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
 .carousel-indicators .active {
     width: 10px;
     height: 10px;
