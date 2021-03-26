@@ -308,6 +308,72 @@ header div.container {
 }
 
 
+/* misc */
+
+.flip-card-front h1 {
+    text-transform: capitalize;
+}
+
+.height-fit {
+    height: fit-content;
+}
+
+.main-head {
+    text-transform: uppercase;
+}
+
+
+/* products */
+
+.card {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    height: 100%;
+    width: 0%;
+    display: flex;
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+}
+
+.card-body h2 {
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin: auto;
+    transform: translateX(-150px);
+    transition: 1s;
+}
+
+.card h2 {
+    font-size: 0;
+}
+
+.card:hover .card-body {
+    width: 100%;
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover .card-body h2 {
+    visibility: visible;
+    transform: translateX(0px);
+    transition: 1s;
+    font-size: xx-large;
+}
+
+.card:hover .card-body h2 {
+    visibility: visible;
+}
+
+
 /* footer */
 
 footer {
