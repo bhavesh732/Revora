@@ -325,52 +325,34 @@ header div.container {
 
 /* products */
 
+.products .col-sm-3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin-top: auto;
+    padding: 20px;
+}
+
 .card {
     padding: 5px;
     margin-bottom: 10px;
+    bottom: 0;
+    border: none;
+    position: relative;
+    margin-top: auto;
 }
 
-.card-body {
-    height: 100%;
-    width: 0%;
-    display: flex;
-    visibility: hidden;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    background: rgba(0, 0, 0, 0.5);
-    transition: 0.5s ease-in-out;
-}
-
-.card-body h2 {
+.product-name {
     text-align: center;
     width: 100%;
-    color: white;
-    margin: auto;
-    transform: translateX(-150px);
-    transition: 1s;
+    font-size: large;
+    padding: 3px;
+    border-bottom: 1px solid black;
+    height: fit-content;
 }
 
 .card h2 {
     font-size: 0;
-}
-
-.card:hover .card-body {
-    width: 100%;
-    visibility: visible;
-    transition: 0.5s ease-in-out;
-}
-
-.card:hover .card-body h2 {
-    visibility: visible;
-    transform: translateX(0px);
-    transition: 1s;
-    font-size: xx-large;
-}
-
-.card:hover .card-body h2 {
-    visibility: visible;
 }
 
 
